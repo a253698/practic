@@ -1,0 +1,14 @@
+package com.mavis;
+
+public class Person {
+	
+	public void sayHellow() {
+		System.out.println("Hello World");
+	}
+
+	public static void main(String[] args) {
+            Person p = new Person();
+            p.sayHellow();           
+	} 
+
+}
