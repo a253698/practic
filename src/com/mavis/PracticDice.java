@@ -1,11 +1,13 @@
 package com.mavis;
 
 public class PracticDice {
-	
+
 	public static void main(String[] args) {
-
 		
-
+		int a1;
+		int a2;
+		int a3;
+		
 		int a[] = new int[3];
 		a[0] = 4;
 		a[1] = 5;
@@ -14,5 +16,4 @@ public class PracticDice {
 			System.out.println(a[i]);
 		}
 	}
-
 }
