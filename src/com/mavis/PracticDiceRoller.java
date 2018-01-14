@@ -12,27 +12,21 @@ public class PracticDiceRoller {
 		for (int k = 1; k <= 5; k++) {
 			// k=骰幾次
 			a[k] = k;
-
 			for (int j = 1; j <= 4; j++) {
 				// j=幾顆骰子
-
 				Random r = new Random();
 				a[k] = r.nextInt(6) + 1;
 				
-//				if(a[k] =! a[k]) {
-//					System.out.print(a[k]);
-//				}
-				
+//				 if( k == k) {
+//				 System.out.print(a[k]);
+//				 }
+			
 				System.out.print(a[k]);
-				
-				if(a[k] == 6) {
+				if (a[k] == 6) {
 					C++;
 				}
-
 			}
-			
 			System.out.print(" ");
-			
 		}
 		System.out.print("6出現次數:" + C);
 
