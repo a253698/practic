@@ -18,11 +18,11 @@ public class PracticDiceRollerArray {
 					Random r = new Random();
 					a[k] = r.nextInt(6) + 1;
 					
-//					 if( a[k] == a[k]) {
-//					 System.out.print(a[k]);
-//					 break;
-//					 }
-//				
+					 if( a[k] == a[k]) {
+					 System.out.print(a[k]);
+					 break;
+					 }
+
 					System.out.print(a[k]);
 					if (a[k] == 6) {
 						C++;

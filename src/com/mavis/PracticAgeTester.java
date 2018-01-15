@@ -3,7 +3,7 @@ package com.mavis;
 import java.util.Scanner;
 
 public class PracticAgeTester {
-	
+
 	public static void main(String[] args) {
 		System.out.println("Please type in your age:");
 		Scanner scanner = new Scanner(System.in);

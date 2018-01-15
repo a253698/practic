@@ -24,7 +24,7 @@ public class PracticScoreArray {
 		for (int n = 0; n < 5; n++){
 			System.out.print(score[n][0]+"\t"+score[n][1]+"\t"+score[n][2]+"\t");
 			int average = (score[n][0]+score[n][1]+score[n][2])/3;
-			if (average < 60){
+			if (average < 50){
 				System.out.println(average+"*");
 			}else{
 				System.out.println(average);

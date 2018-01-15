@@ -71,6 +71,9 @@ public class PracticVendingMachine {
 				System.out.println("結束!");
 				n = -1 ;
 				break;
+				
+			default:
+				continue;
 			}
 		}
 	}
