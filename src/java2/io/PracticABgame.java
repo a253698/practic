@@ -19,11 +19,9 @@ public class PracticABgame {
 			for (int i = 0; i < guessnums.length(); i++) {
 				char c = guessnums.charAt(i);
 				//讀 guessnums 的第i位
-				
 				for (int j = 0; j < secretnumber.length(); j++) {
 					if (c == secretnumber.charAt(j)) {
 						//讀 secretnumber 的第j位
-						
 						if (i == j) {
 							a++;
 						} else {
