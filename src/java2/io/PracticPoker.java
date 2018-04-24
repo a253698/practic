@@ -20,6 +20,7 @@ public class PracticPoker {
 			int tmp = cards[i];
 			cards[i] = cards[j];
 			cards[j] = tmp;
+			//洗牌
 			
 		}
 	}
